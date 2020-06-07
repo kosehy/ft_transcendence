@@ -8,6 +8,7 @@ WORKDIR /project
 COPY Gemfile Gemfile.lock ./
 RUN gem install bundler --no-document
 RUN bundle install --no-binstubs --jobs $(nproc) --retry 3
+RUN yarn add bootstrap jquery popper.js
 
 COPY . .
 
