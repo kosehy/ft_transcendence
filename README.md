@@ -64,11 +64,11 @@ Implement Single Page Web Application Built with Rails and docker
 - [ ] Through the chat interface users must be able to see other players proﬁles 
 
 4. Game
-The main purpose of this website is to play pong against other players and show everyone how good you are! Therefor we should be able to play pong directly on the website and live against an other player. It can be in a canvas or it can be with 3d eﬀects, it can be ugly but it must be a pong like the one from 1972. If you want to, you can add power ups, diﬀerent maps etc... but user must be able to play a default pong game without any added stuﬀ. The game must be responsive! Other users can watch the game live without interfering in i
+- The main purpose of this website is to play pong against other players and show everyone how good you are! Therefor we should be able to play pong directly on the website and live against an other player. It can be in a canvas or it can be with 3d eﬀects, it can be ugly but it must be a pong like the one from 1972. If you want to, you can add power ups, diﬀerent maps etc... but user must be able to play a default pong game without any added stuﬀ. The game must be responsive! Other users can watch the game live without interfering in i
 
 5. Guilds
 - [ ] Users must be able to create guilds with unique names
-- [ ] Aguildmustalsohaveauniqueanagramof5lettersmaxthatwillbeshownbefore the name of a user in the chat
+- [ ] A guild must also have a unique anagram of 5 letters max that will be shown before the name of a user in the chat
 - [ ] Each time a member of the guild wins a game, some points are added to the guild’s points
 
 - [ ] There must be a ranking page of all guilds, visible to any logged-in user
@@ -87,7 +87,7 @@ The main purpose of this website is to play pong against other players and show 
 - [ ] Each guild has a war history page, visible to any logged-in user
 
 6. Tournament
-There must a permanent ladder tournament with a match making system with a ladder system. (https://en.wikipedia.org/wiki/Ladder_tournament) Users can play on the ladder, with a rating system, or play casually, without it aﬀecting their rating. There also must be tournaments that can be created by admininstrators or automatically. Rules of said tournament (round robin, single/double eliminations, swiss...) is up to you. User will be allowed to register to the tournament in a timeframe before said tournament. You can add incentives to tournaments, like title for the winner or other cool stuﬀ.
+- There must a permanent ladder tournament with a match making system with a ladder system. (https://en.wikipedia.org/wiki/Ladder_tournament) Users can play on the ladder, with a rating system, or play casually, without it aﬀecting their rating. There also must be tournaments that can be created by admininstrators or automatically. Rules of said tournament (round robin, single/double eliminations, swiss...) is up to you. User will be allowed to register to the tournament in a timeframe before said tournament. You can add incentives to tournaments, like title for the winner or other cool stuﬀ.
 
 7. Admin
 - [ ] They can create tournaments
