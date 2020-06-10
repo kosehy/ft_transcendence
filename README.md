@@ -38,7 +38,7 @@ Implement Single Page Web Application Built with Rails and docker
 - [ ] Everything should run with a single call to docker-compose up –build
 
 ## Mandatory part
-1. Security COncerns
+1. Security Concerns
 - [ ] Any password stored in your database must be encrypted 
 - [ ] Your website must be protected against SQL injections 
 - [ ] You must implement some kind of server-side validation for forms and any user input
@@ -56,7 +56,7 @@ Implement Single Page Web Application Built with Rails and docker
 3. Chat
 - [ ] Users must be able to create channels public/private or protected by a password
 - [ ] Users must be able to send direct messages to other user
-- [ ] Usersmustbeabletoblockotheruserandthereforetheywillnotseetheirmessages anymore
+- [ ] Users must be able to block other user and therefore they will not see thire messages anymore
 - [ ] A user that create a new channel is automatically its owner until he leaves the channel
 - [ ] owner of a channel can add/change/remove a password to access to the channel
 - [ ] owner can select user to be administrator and is also administrator of the channel ∗ administrator can ban or mute users for a certain amount of time
