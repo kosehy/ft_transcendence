@@ -20,19 +20,20 @@ default: &default
   # For details on connection pooling, see Rails configuration guide
   # https://guides.rubyonrails.org/configuring.html#database-pooling
   pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
+  host: <%= ENV.fetch("DATABASE_HOST") { "localhost" } %>
   port: <%= ENV.fetch("DATABASE_PORT") { 5432 } %>
   username: <%= ENV.fetch("DATABASE_USERNAME") { "postgres" } %>
   password: <%= ENV.fetch("DATABASE_PASSWORD") { "" } %>
 
 development:
   <<: *default
-  database: ft_transcendence_development
+  database: r_test3_development
 
   # The specified database role being used to connect to postgres.
   # To create additional roles in postgres see `$ createuser --help`.
   # When left blank, postgres will use the default role. This is
   # the same name as the operating system user that initialized the database.
-  #username: ft_transcendence
+  #username: r_test3
 
   # The password associated with the postgres role (username).
   #password:
@@ -60,7 +61,7 @@ development:
 # Do not set this db to the same as development or production.
 test:
   <<: *default
-  database: ft_transcendence_test
+  database: r_test3_test
 
 # As with config/credentials.yml, you never want to store sensitive information,
 # like your database password, in your source code. If your source code is
@@ -83,6 +84,6 @@ test:
 #
 production:
   <<: *default
-  database: ft_transcendence_production
-  username: <%= ENV.fetch("DATABASE_USERNAME") { "ft_transcendence" } %>
+  database: r_test3_production
+  username: <%= ENV.fetch("DATABASE_USERNAME") { "r_test3" } %>
   password: <%= ENV.fetch("DATABASE_PASSWORD") { "" } %>
